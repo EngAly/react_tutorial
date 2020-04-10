@@ -1,0 +1,11 @@
+$fg: rgb(66, 112, 19);
+$bg:rgb(54, 199, 110);
+
+h1 {
+  color: $fg;
+}
+
+.fbg{  // color and back ground
+    color: $fg;
+    background-color:$bg 
+}

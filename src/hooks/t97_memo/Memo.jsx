@@ -3,6 +3,8 @@ import UserName from './UserName';
 import { MemoPhone } from './Phone';
 
 /**
+ *  The main idea of react.memo is:- 
+ *  When no change in state react not re render 
  *  React.memo()
  *  When deciding to update DOM, React first renders your component,
  *  then compares the result with the previous render result.

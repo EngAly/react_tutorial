@@ -16,8 +16,15 @@ import Launcher from './t94_reducerWithContext/Launcher';
 import FetchingData from './t95_fetchingData/FetchingData';
 import FetchDataUsingRedcer from './t95_fetchingData/FetchDataUsingRedcer';
 import Person from './t96_callback/Person';
-import Memo from './t97_memo/Memo';
+import TestMemo from './t98_useMemo/TestMemo';
+import REF from './t99_useRef/REF';
+import CustomHook from './t991_customHook/CustomHook';
+import AdvancedCustomHook from './t992_advancedCustomHook/AdvancedCustomHook';
 
+
+/**
+ * all hoocks tutorial
+ */
 class Hooks extends Component {
     render() {
         return (
@@ -74,7 +81,21 @@ class Hooks extends Component {
                 {/* <Memo /> */}
 
                 {/* how to use useCallback hook*/}
-                <Person />
+                {/* <Person /> */}
+
+                {/* how to use useMemo to prevent state fron re render if it not changed */}
+                {/* <TestMemo /> */}
+
+                {/* how to use ref for instance to make input field focused when page is loaded */}
+                {/* <REF /> */}
+
+
+                {/* how to use custom hook to resuable logic code between multi functions*/}
+                {/* <CustomHook /> */}
+
+                {/* how to use custom hook */}
+                <AdvancedCustomHook />
+
 
 
 

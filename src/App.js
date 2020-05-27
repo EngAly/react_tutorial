@@ -30,6 +30,7 @@ import UserName from "./basics/24_contex/UserName";
 import MarketItems from './project_1/additemtolist'
 import LikeDislike from './project_2/likeDislike'
 import Counter from './project_3/counter'
+import Table from './project_4/Pagination'
 
 // advanced tutorial
 import AdvancedTutorial from './advancedTutorial/AdvancedTutorial'
@@ -138,7 +139,7 @@ function App() {
       {/* counter as counter things or maybe another needs */}
       {/* <Counter /> */}
 
-
+      <Table />
 
 
       {/* this advanced tutprial that show some advanced/tricky subjects in react goto 
@@ -165,7 +166,7 @@ function App() {
 
       {/* complete tutorial how to statrt with hook (functional component) please go to Hooks
        file for more information */}
-      <Hooks />
+      {/* <Hooks /> */}
 
     </div>
   );

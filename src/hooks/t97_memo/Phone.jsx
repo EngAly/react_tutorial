@@ -10,4 +10,5 @@ const Phone = ({ phone }) => {
     );
 };
 
+// make "Phone" functional component  as a memo Component and return MemoPhone variable
 export const MemoPhone = React.memo(Phone);
